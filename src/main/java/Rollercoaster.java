@@ -11,7 +11,7 @@ public class Rollercoaster extends Attractions implements ISecurity{
     }
 
     public boolean isAllowedTo(Visitor visitor){
-        return visitor.getHeight() >= rollercoaster.getHeightRestriciton();
+        return visitor.getHeight() >= getHeightRestriciton();
     }
 
 

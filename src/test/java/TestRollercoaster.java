@@ -38,8 +38,8 @@ public class TestRollercoaster {
     }
 
     @Test
-    public void canVisitorRideRollerCoaster(){
-        assertEquals(true, rollercoaster1.isAllowedTo(visitor1, rollercoaster1));
-        assertEquals(false, rollercoaster2.isAllowedTo(visitor4, rollercoaster2));
+    public void canVisitorRideAttraction(){
+        assertEquals(true, rollercoaster1.isAllowedTo(visitor1));
+        assertEquals(false, rollercoaster2.isAllowedTo(visitor4));
     }
 }
